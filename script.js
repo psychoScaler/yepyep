@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! <3 ILOVEYOU!!!!!";
+  titleElement.innerHTML = "Yayyy!! :3";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -44,7 +44,7 @@ function generateMessage(noCount) {
   const messages = [
     "No",
     "Why no? :(",
-    "Mahal, please :(((",
+    "Bebuuu please",
     "Are you sure?:(",
     "Sakit mo hays",
     "Iiyak aq d2...",
@@ -55,13 +55,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cat-0.jpg`;
-  catImg.src = `img/cat-1.jpg`;
-  catImg.src = `img/cat-2.jpg`;
-  catImg.src = `img/cat-3.jpg`;
-  catImg.src = `img/cat-4.jpg`;
-  catImg.src = `img/cat-5.jpg`;
-  catImg.src = `img/cat-yes.jpg`;
+  catImg.src = `img/cat-${image}.jpg`;
 }
 
 function updateNoButtonText() {
