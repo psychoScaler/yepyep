@@ -44,7 +44,7 @@ function generateMessage(noCount) {
   const messages = [
     "No",
     "Why no? :(",
-    "Bebuuu please",
+    "Mahal, please",
     "Are you sure?:(",
     "Sakit mo hays",
     "Iiyak aq d2...",
